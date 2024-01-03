@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhi.dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+  </head>
+  <body>
+    <!-- First -->
+    <nav id="desktop-nav">
+      <div class="logo">Abhijit Shaw</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- second -->
+    <nav id="hamburger-nav">
+      <div class="logo">Abhijit Shaw</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile -->
+    <section id="profile">
+      <div class="section-pic-container">
+        <img src="./assets/my-pic1.png" alt="Abhijit's profile picture" />
+      </div>
+
+      <div class="section-text">
+        <p class="p1 text">Hello, I'm</p>
+        <h1 class="title text">Abhijit Shaw</h1>
+        <p class="p2 text">Full Stack Devoloper</p>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abhijit-shaw-6314b0221/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/TheAJ25'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <p class="section_text_p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section-pic-container">
+          <img
+            src="./assets/my-pic2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years<br />Full Stack Developement</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.tech Bachelors Degree</p>
+              <p>in Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Greetings! I'm Abhijit, a dedicated full-stack developer currently
+              pursuing a B.Tech degree at B.P. Poddar Institute of Management
+              and Technology in Kolkata, India. Proficient in the MERN stack, I
+              excel in crafting efficient and user-friendly web applications. My
+              expertise extends to languages like C, C++, JavaScript, Java, and
+              Python, with a focus on problem-solving and Data Structures &
+              Algorithms. Actively contributing to open-source projects, I
+              navigate seamlessly between front-end and back-end development,
+              ensuring the creation of robust and scalable solutions. Beyond
+              coding, my strong communication skills enhance collaboration,
+              making me an effective team player. Eager to explore new
+              challenges and opportunities in the ever-evolving tech landscape,
+              I am committed to continuous learning and innovation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <!-- experience -->
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developmet</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>HTML</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>CSS</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Javascript</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>React JS</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Tailwind</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Redux</h1>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Developmet</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Node Js</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Express Js</h1>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Mongo DB</h1>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h1>Postgresql</h1>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                onclick="location.href='https://github.com/TheAJ25'"
+                class="btn btn-color-2 project-btn"
+              >
+                Github
+              </button>
+              <button
+                onclick="location.href='https://github.com/TheAJ25'"
+                class="btn btn-color-2 project-btn"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                onclick="location.href='https://github.com/TheAJ25'"
+                class="btn btn-color-2 project-btn"
+              >
+                Github
+              </button>
+              <button
+                onclick="location.href='https://github.com/TheAJ25'"
+                class="btn btn-color-2 project-btn"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                onclick="location.href='https://github.com/TheAJ25'"
+                class="btn btn-color-2 project-btn"
+              >
+                Github
+              </button>
+              <button
+                onclick="location.href='https://github.com/TheAJ25'"
+                class="btn btn-color-2 project-btn"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt=""
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:abhijitshaw2501@gmail.com">abhijitshaw2501</a></p>
+        </div>
+
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="" class="icon contact-icon" />
+          <p>
+            <a href="//www.linkedin.com/in/abhijit-shaw-6314b0221/">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="extra">
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p class="last">
+          Copyright &#169; 2024 Abhijit Shaw. All Rights Reserved.
+        </p>
+      </footer>
+    </section>
+
+    <!-- adding js  -->
+    <script src="script.js"></script>
+  </body>
+</html>
